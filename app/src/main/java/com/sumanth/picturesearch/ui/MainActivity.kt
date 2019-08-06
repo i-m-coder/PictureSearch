@@ -9,7 +9,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+         if(savedInstanceState == null)
             this.supportFragmentManager.beginTransaction()
-                .add(android.R.id.content, PhotosFragment()).commit()
+                .replace(android.R.id.content, PhotosFragment()).commit()
     }
 }

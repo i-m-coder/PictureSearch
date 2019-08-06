@@ -13,7 +13,6 @@
             android:layout_marginTop="23dp"
             android:padding="2dp"
             android:text="X"
-            android:onClick="close"
             android:textColor="@android:color/black"
             android:background="#CCFFFFFF"
             android:layout_width="wrap_content"
