@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent" android:layout_height="match_parent">
+    <uk.co.senab.photoview.PhotoView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"/>
+    <Button
+            android:id="@+id/close"
+            android:contentDescription="close"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="23dp"
+            android:padding="2dp"
+            android:text="X"
+            android:onClick="close"
+            android:textColor="@android:color/black"
+            android:background="#CCFFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</FrameLayout>
